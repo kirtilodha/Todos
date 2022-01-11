@@ -30,7 +30,7 @@ A browser extension that keeps track of your daily todos.</p>
   <ol>
     <li>yarn dev or npm install </li>
     <li>yarn build </li>
-    <li>Go to [Chrome Extensions settings](chrome://extensions/)</li>
+    <li>Go to chrome://extensions/ </li>
     <li>Click on Load Unpacked</li>
     <li>Browse to your build folder and select the build folder.</li>
     <li>Tadaa! You'll see the extension in your extensions list.</li>
