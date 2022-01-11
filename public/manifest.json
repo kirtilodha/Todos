@@ -1,0 +1,16 @@
+
+  {
+    "manifest_version": 2,
+  
+    "name": "Todos",
+    "description": "This extension is a starting point to create a real Chrome extension",
+    "version": "0.0.1",
+  
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_title": "Open the popup",
+      "default_icon": "icon.png"
+    },
+    "permissions": ["activeTab"],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  }
